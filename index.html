@@ -33,7 +33,76 @@
     </header>
     <main style="height:500px" >
               
-              <script src="./app.js"></script>
+        <form id="drinkForm">
+
+            <fieldset>
+                <legend>Add An Employee</legend>
+                 <div>
+                    <label for="name">Full name:</label>
+                <input type="text" name="name" id="name" placeholder="Name">
+</div> 
+                
+                <br/>
+                <br/>
+                   <div>
+                <label for="Department">Department:</label>
+                <select name="Department">
+                    <option>
+                        Administration
+                    </option>
+                    <option>
+                        Marketing
+                    </option>
+                    <option>
+                        Development
+                    </option>
+                    <option>
+                        Finance
+                    </option>
+                </select>
+</div>
+                <br/>
+                <br/>
+<div>
+    <label for="Level">Level:</label>
+    <select name="Level">
+        <option>
+            Junior
+        </option>
+        <option>
+            Mid-Senior
+        </option>
+        <option>
+            Senior
+        </option>     
+    </select>
+</div>
+
+<br>
+<br>
+
+<div>
+                <label for="imgUrl">Image</label>
+                <input type="text" name="imgUrl" id="imgUrl" placeholder="image path">
+
+                <br/>
+                <br/>
+</div>
+
+                <br/>
+                <br/>
+<div>
+                <input type="submit" value="Add">
+</div>
+            </fieldset>
+
+        </form>
+
+
+  <section id="Card">
+
+  </section>
+              
     </main>
      <footer>
        
@@ -55,7 +124,7 @@
       
     
     </footer>
-
+<script src="./app.js"></script>
     
 </body>
 </html>
