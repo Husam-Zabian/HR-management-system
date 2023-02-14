@@ -31,3 +31,19 @@ footer{
     justify-content: space-around;
     background-color: #98965b;
  }
+
+ form{
+    display: flex;
+ }
+
+ fieldset{
+    background-color: bisque;
+ }
+
+ fieldset div{
+   width: 200px;
+ }
+
+ section div{
+    background-color: green;
+ }
