@@ -140,3 +140,41 @@ main section dev P {
     border-radius: 50%;
     margin: 20px 0;
 }
+
+
+.table-wrapper {
+    display: flex;
+    overflow-x: auto;
+    width: 90%;
+    height: 100%;
+    margin: 30px;
+    padding: 15px;
+    background-color: #a3c0dd;
+    box-shadow: 2px 2px 5px #3d84c4;
+}
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  thead {
+    background-color: #f2f2f2;
+  }
+  th, td {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+  }
+  th {
+    text-align: left;
+    font-weight: bold;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tfoot td {
+    font-weight: bold;
+  }

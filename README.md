@@ -1,5 +1,8 @@
 # HR-management-system
 
-# index html now could add an employee card
+# index html now is saving the cards after refershing
 
-# app js now are appending a new card from my constructor
+
+# accounting js is making the register of the following cards i've inserted
+
+# accounting html have the schedule of the last updated values of the cards
